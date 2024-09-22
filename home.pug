@@ -1,0 +1,47 @@
+extends base.pug
+
+block scripts 
+    scripts(src="../static/index.js")
+
+block style 
+    style 
+        include ../static/style.css
+
+block content 
+    section#introSection
+        div Welcome To Our Dance Academy!
+        div.small Unleash Your Inner Dancer
+        div.small Feel Flow Dance Glow
+
+    section#missionSection 
+        h2 Our Mission
+        div.card
+            h3 Inspiring Movement
+            div.cardBox-1 
+              div.card-img 
+                img(src="../static/1.png")
+              div#card-content1
+                p Our mission is to inspire movement in every individual, fostering creativity and expression through diverse dance styles and techniques.
+        div.card
+            h3 Empowering Through Dance
+            div.cardBox-2 
+              div.card-img 
+                img(src="../static/2.png")
+              div#card-content2
+                p We empower individuals by providing inclusive dance education, promoting self-confidence, discipline, and a sense of community for all.
+
+        div.card
+            h3 Transforming Lives
+            div.cardBox-3
+              div.card-img 
+                img(src="../static/3.png")
+              div#card-content3
+                p Transforming lives through dance, we nurture talent, encourage personal growth, and create lifelong memories with every step taken. 
+
+    section#sponsorSection 
+        h2 Our Sponsors
+        div#sponsors 
+          img(src="../static/s1.png" alt="sponsor image" class="SPimage")
+          img(src="../static/s2.png" alt="sponsor image" class="SPimage")
+          img(src="../static/s3.png" alt="sponsor image" class="SPimage")
+          img(src="../static/s4.png" alt="sponsor image" class="SPimage")

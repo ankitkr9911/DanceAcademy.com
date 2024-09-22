@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Bree+Serif&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1{
+    text-align: center;
+    margin:20px 0;
+    font-family: "Bree Serif", serif;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.InputClass{
+    width:40%;
+    padding:8px;
+    margin:12px 0;
+    font-size: 16px;
+    font-family: "Bree Serif", serif;
+    border:2px solid black;
+    border-radius: 10px;
+    outline:none;
+}
+
+.btn{
+    border:2px solid black;
+    border-radius: 10px;
+    padding:10px 20px;
+    font-size:20px;
+    margin:12px;
+    background-color: #504545;
+    color:white;
+    font-family: "Bree Serif", serif;
+    cursor:pointer;
+    outline: none;
+}
+
+.btn:hover{
+    background-color: green;
+}
+
+.container{
+    min-height: 82vh;
+}
